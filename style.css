@@ -27,6 +27,7 @@ main{
 .link-buttons{
     background-color: #E02C6D;
     padding: 10px 24px;
+    
 }
 /* Header design */
 header{
@@ -88,6 +89,10 @@ header{
     display:flex;
     justify-content: space-between;
     grid-column-gap: 69px;
+}
+.blog a{
+    display: inline-block;
+    margin-top: 20px;
 }
 .match img{
     width: 100%;

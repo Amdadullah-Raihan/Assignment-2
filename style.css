@@ -1,0 +1,227 @@
+
+
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* Common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#FFFFFF;
+}
+.container{
+    width: 1050px;
+    margin: auto;
+    margin-bottom: 154px;
+      
+  }
+.white-color{
+    color:white;
+}
+.link-buttons{
+    background-color: #E02C6D;
+    padding: 10px 24px;
+}
+/* Header design */
+header{
+    background-color:#2D25A0 ;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.site-intro{
+    margin-left: 156px;
+}
+.site-intro h1{
+    font-size: 64px;
+   
+}
+.fa-arrow-right{
+    margin-left: 8px;
+}
+.site-intro a{
+    text-decoration: none;
+}
+.images{
+    margin-right: 20px;
+    
+}
+.images img{
+    width: 556.01px;
+ 
+    
+}
+/* Main section design  */
+
+
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);  
+    grid-row-gap:30px;
+    grid-column-gap:30px ;
+    margin-top: 70px; 
+}
+.player{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    padding: 15px;
+    height: 474px;
+    text-overflow: ellipsis;
+    text-overflow: ellipsis;}
+.player p{
+    margin-bottom: 10px;
+}
+.blog a{
+    text-decoration: none;
+}
+.player img{
+    width: 100%;
+    
+}
+/* highligt section design */
+.highlights{
+    display:flex;
+    justify-content: space-between;
+    grid-column-gap: 69px;
+}
+.match img{
+    width: 100%;
+}
+/* news section */
+.football-news{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+    
+}
+.news{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.news img{
+    width: 100%;
+}
+.news h2{
+    margin: 10px;
+}
+/* womemes football strategy */
+.womens-football{
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 20px;
+}
+.strategy{
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+}
+.strategy img{
+    
+    width: 100%;
+}
+.strategy h2,p{
+    margin: 10PX;
+}
+
+/* footer design */
+.footer-info{
+    width: 483.87px;
+    margin: 0 auto;
+
+    
+}
+footer #logo{
+    width: 400.87px;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons img{
+    width: 32px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.copyright-info p{
+    font-size: 18px;
+    text-align: center;
+}
+
+/* responsive design for mobile */
+@media only screen and (max-width:688px) {
+    
+    .container{
+        width: 100%;
+        
+    }
+    header{
+        display: block;
+    }
+    .images{
+        margin: 15px;
+    }
+   .images img{
+        width: 100%;
+       
+    }
+    .site-intro{
+        margin: 0;
+        margin-left: 16px;
+        margin-bottom: 50px;
+    }
+    .site-intro h1{
+        font-size: 36px;
+        
+    }
+    
+
+   .players{
+       grid-template-columns: repeat(1,1fr);
+   }
+   .player{
+       height: auto;
+       margin: 12px 15px ;
+      
+   }
+   .highlights{
+    display: block;
+    margin: 15px;
+    
+   }
+   .highlights img{
+       margin-top: 29px;
+   }
+   .football-news{
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px;
+   }
+   .womens-football{
+    grid-template-columns: repeat(1,1fr);
+    margin: 15px;
+   }
+  
+   .footer-info{
+    width: 100%;
+    margin: 0 auto;
+
+    
+}
+footer #logo{
+    width: 60%;
+    margin-left:60px ;
+}
+.social-icons{
+    text-align: center;
+}
+.social-icons img{
+    width: 32px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.copyright-info p{
+    font-size: 18px;
+    text-align: center;
+}
+   
+}
